@@ -6,7 +6,7 @@ const prefix = '='
 
 const client = new Client({ disableEveryone: true });
 
-const youtube = new YouTube(GOOGLE_API_KEY);
+const youtube = new YouTube('GOOGLE_API_KEY');
 
 const queue = new Map();
 
